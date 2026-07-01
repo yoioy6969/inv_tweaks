@@ -125,7 +125,6 @@ void main() {
 	int font_size = to_int(get_property("i_t_font_size"));
 	boolean show_offhand_opt = to_boolean(get_property("i_t_offhand"));*/
 	
-	print("entered inventory somehow???", "purple");
 	string[string] fields = form_fields();
 		
 	if(fields contains "ajax") {
